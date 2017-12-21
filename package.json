@@ -1,0 +1,23 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "description": "An Api to send an email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me12722/email-api.git"
+  },
+  "author": "Ivan Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/me12722/email-api/issues"
+  },
+  "homepage": "https://github.com/me12722/email-api#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
