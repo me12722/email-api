@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 const email = require('./routes/email');
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello Entelo!'))
 
 app.use('/email', email);
 app.listen( process.env.PORT || 3000, () => console.log('Example app listening on port 3000!'))
