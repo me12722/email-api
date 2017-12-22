@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/me12722/email-api#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "config.json": "0.0.4",
+    "express": "^4.16.2",
+    "nodemailer": "^4.4.1"
   }
 }
